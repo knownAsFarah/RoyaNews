@@ -4,7 +4,7 @@ import { faThumbsUp } from "@fortawesome/free-solid-svg-icons";
 import { faThumbsDown } from "@fortawesome/free-solid-svg-icons";
 import { faShare } from "@fortawesome/free-solid-svg-icons";
 import { faBookmark } from "@fortawesome/free-solid-svg-icons";
-
+import { faBell } from "@fortawesome/free-solid-svg-icons";
 
 // Define the type for a single card
 interface Card {
@@ -47,7 +47,7 @@ const Content: React.FC = () => {
 
     <div className="with-bg-image">
         <img className="bg-image" src="/gaza.jpg"></img>
-        <div className="text"><p >غزة: عودة النازحين الى بيوتهم</p>
+        <div className="text"><p >غزة: عودة النازحين الى بيوتهم الى شمال القصاع بعد حرب دامت اكثر من 460 يوم </p>
         </div>
     </div>
     <div className='reddiv'>
@@ -194,6 +194,7 @@ const Content: React.FC = () => {
     </div>
 
     </div>
+    <button className="ajel"><FontAwesomeIcon icon={faBell}  /></button>
     </div>
     </>
   );
