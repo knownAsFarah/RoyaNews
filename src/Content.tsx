@@ -50,7 +50,7 @@ const Content: React.FC = () => {
         <div className="text"><p >غزة: عودة النازحين الى بيوتهم الى شمال القصاع بعد حرب دامت اكثر من 460 يوم </p>
         </div>
     </div>
-    <div className='reddiv'>
+    <div className='newsDiv'>
       {cards.map((news) => (
         <div className="news-card" key={news.id}>
             <div className="news-content">
@@ -118,7 +118,7 @@ const Content: React.FC = () => {
       </button>
     </div>
     <div className="bottom-content">
-    <div className='reddiv'>
+    <div className='newsDiv'>
       {cards.map((news) => (
         <div className="news-card" key={news.id}>
             <div className="news-content">
@@ -167,7 +167,7 @@ const Content: React.FC = () => {
         </div>
     </div>
     </div>
-    <div className='reddiv'>
+    <div className='newsDiv'>
       {cards.map((news) => (
         <div className="news-card" key={news.id}>
             <div className="news-content">

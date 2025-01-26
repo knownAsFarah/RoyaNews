@@ -1,6 +1,5 @@
 import logo from '/royaNewsLogo.svg' 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,7 +7,7 @@ import { faEarthAmericas } from '@fortawesome/free-solid-svg-icons';
 function Header(){
     return (
         <>
-          <div className="top-header">
+          <div className="top-header welcome">
             <div className='right'>
             <span className='welcomeMessage'>مرحبا بك في موقع رؤيا الإخباري لتطلع على آخر الأحداث والمستجدات في الأردن والعالم</span>
             </div>
